@@ -33,11 +33,11 @@ void main()
     // float a = 0;
     // printf("Enter variable a ");
     // scanf("%f", &a);
-    // printf("V = %.0f\nS = %.0f", pow(a,3), 6*pow(a,2));
+    // printf("V = %.0f\nS = %.0f", pow(a,3), 6 * pow(a,2));
 
     // begin 6
     // float a = 0, b = 0, c = 0;
-    // printf("Enter variables a and b and c ");
+    // printf("Enter variables a, b and c ");
     // scanf("%f %f %f", &a, &b, &c);
     // printf("V = %.0f\nS = %.0f", a*b*c, 2*(a*b + b*c + a*c));
 
@@ -112,7 +112,7 @@ void main()
 
     // begin 17
     // float A = 0, B = 0, C = 0, AC = 0, BC = 0;
-    // printf("Enter variables A and B and C ");
+    // printf("Enter variables A, B and C ");
     // scanf("%f %f %f", &A, &B, &C);
     // AC = fabs(A - C);
     // BC = fabs(B - C);
@@ -120,21 +120,49 @@ void main()
 
     // begin 18
     // float A = 0, B = 0, C = 0;
-    // printf("Enter variables A and B and C ");
+    // printf("Enter variables A, B and C ");
     // scanf("%f %f %f", &A, &B, &C);
     // printf("The product of segment lengths is equal to %.0f", (fabs(A - C))*(fabs(B - C)));
 
     // begin 19
     // float x1 = 0, x2 =0, y1 = 0, y2 = 0;
-    // printf("Enter variables x1 and x2 and y1 and y2 ");
+    // printf("Enter variables x1, x2, y1 and y2 ");
     // scanf("%f %f %f %f", &x1, &x2, &y1, &y2);
     // printf("P = %.0f\nS = %.0f", 2*(fabs(y1 - y2) + fabs(x1 - x2)), fabs(y1 - y2) * fabs(x1 - x2));
 
     // begin 20
     // float x1 = 0, x2 = 0, y1 = 0, y2 = 0;
-    // printf("Enter variables x1 and x2 and y1 and y2 ");
+    // printf("Enter variables x1, x2, y1 and y2 ");
     // scanf("%f %f %f %f", &x1, &x2, &y1, &y2);
     // printf("The distance between two points is %.0f", sqrt(pow(x2 - x1,2) + pow(y2 - y1,2)));
+
+    // begin 21
+    // float x1 = 0, x2 = 0, x3 = 0, y1 = 0, y2 = 0, y3 = 0, p = 0, a = 0, b = 0, c = 0;
+    // printf("Enter variables x1, x2, x3, y1, y2 and y3 ");
+    // scanf("%f %f %f %f %f %f", &x1, &x2, &x3, &y1, &y2, &y3);
+    // a = sqrt(pow(x1 - x2,2) + pow(y1 - y2,2));
+    // b = sqrt(pow(x2 - x3,2) + pow(y2 - y3,2));
+    // c = sqrt(pow(x1 - x3,2) + pow(y1 - y3,2));
+    // p = (a + b + c)/2;
+    // printf("P = %.0f\nS = %.0f", a + b + c, sqrt(p*(p - a)*(p - b)*(p - c)));
+
+    // begin 22 - with 3 variables
+    // float A = 0, B = 0, C = 0;
+    // printf("Enter variables A and B ");
+    // scanf("%f %f", &A, &B);
+    // C = A;
+    // A = B;
+    // B = C;
+    // printf("A = %.0f\nB = %.0f", A, B);
+    
+    // begin 22 - with 2 variables
+    // float A = 0, B = 0;
+    // printf("Enter variables A and B ");
+    // scanf("%f %f", &A, &B);
+    // A = A + B;
+    // B = A - B;
+    // A = A - B;
+    // printf("A = %.0f\nB = %.0f", A, B);
 }
 
 
