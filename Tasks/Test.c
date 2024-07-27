@@ -146,7 +146,7 @@ void main()
     // p = (a + b + c)/2;
     // printf("P = %.0f\nS = %.0f", a + b + c, sqrt(p*(p - a)*(p - b)*(p - c)));
 
-    // begin 22 - with 3 variables
+    // begin 22 - with 3 variables (swap the contents of variables)
     // float A = 0, B = 0, C = 0;
     // printf("Enter variables A and B ");
     // scanf("%f %f", &A, &B);
@@ -155,7 +155,7 @@ void main()
     // B = C;
     // printf("A = %.0f\nB = %.0f", A, B);
     
-    // begin 22 - with 2 variables
+    // begin 22 - with 2 variables (swap the contents of variables)
     // float A = 0, B = 0;
     // printf("Enter variables A and B ");
     // scanf("%f %f", &A, &B);
@@ -163,6 +163,150 @@ void main()
     // B = A - B;
     // A = A - B;
     // printf("A = %.0f\nB = %.0f", A, B);
+
+    // begin 23 (swap the contents of variables A - B, B - C, C - A)
+    // float A = 0, B = 0, C = 0;
+    // printf("Enter variables A, B and C ");
+    // scanf("%f %f %f", &A, &B, &C);
+    // A = A + B + C;
+    // C = A - C - B;
+    // B = A - C - B;
+    // A = A - C - B;
+    // printf("A = %.0f\nB = %.0f\nC = %.0f", A, B, C);
+
+    // begin 24 (swap the contents of variables A - C, C - B, B - A)
+    // float A = 0, B = 0, C = 0;
+    // printf("Enter variables A, B and C ");
+    // scanf("%f %f %f", &A, &B, &C);
+    // A = A + B + C;
+    // B = A - C - B;
+    // C = A - C - B;
+    // A = A - B - C;
+    // printf("A = %.0f\nB = %.0f\nC = %.0f", A, B, C);
+
+    // begin 25
+    // float x = 0;
+    // printf("Enter variable x ");
+    // scanf("%f", &x);
+    // printf("y = %.0f", 3*pow(x,6) - 6*pow(x,2) - 7);
+
+    // begin 26
+    // float x = 0;
+    // printf("Enter variable x ");
+    // scanf("%f", &x);
+    // printf("y = %.0f", 4*pow(x - 3,6) - 7*pow(x-3,3) + 2);
+
+    // begin 27
+    // float A = 0, degree = 0;
+    // printf("Enter variable A ");
+    // scanf("%f", &A);
+    // degree = A*A;
+    // printf("A^2 = %.0f\n", degree);
+    // degree = degree*degree;
+    // printf("A^4 = %.0f\n", degree);
+    // degree = degree*degree;
+    // printf("A^8 = %.0f", degree);
+
+    // begin 28
+    // float A = 0, degree1 = 0, degree2 = 0;
+    // printf("Enter variable A ");
+    // scanf("%f", &A);
+    // degree1 = A*A;
+    // printf("A^2 = %.0f\n", degree1);
+    // degree2 = degree1*A;
+    // printf("A^3 = %.0f\n", degree2);
+    // degree1 = degree2*degree1;
+    // printf("A^5 = %.0f\n", degree1);
+    // degree2 = degree1*degree1;
+    // printf("A^10 = %.0f\n", degree2);
+    // degree1 = degree1*degree2;
+    // printf("A^15 = %.0f", degree1);
+
+    // begin 29
+    // float a = 0;
+    // const float p = 3.14f;
+    // printf("Enter variable a, when 0 < a < 360 ");
+    // scanf("%f", &a);
+    // printf("Rad = %.0f", (a*p)/180);
+
+    // begin 30
+    // float a = 0;
+    // const float p = 3.14f;
+    // printf("Enter variable a, when 0 < a < 2*p ");
+    // scanf("%f", &a);
+    // printf("Rad = %.0f", (a*180)/p);
+
+    // begin 31
+    // float Tf = 0;
+    // printf("Enter variable Tf ");
+    // scanf("%f", &Tf);
+    // printf("Tc = %.0f", (Tf - 32)*5 / 9);
+
+    // begin 32
+    // float Tc = 0;
+    // printf("Enter variable Tc ");
+    // scanf("%f", &Tc);
+    // printf("Tf = %.0f", Tc * 9 / 5 + 32);
+
+    // begin 33
+    // float X = 0, A = 0, Y = 0, cost_one_kg = 0;
+    // printf("Enter variables X kg, A rub and Y kg ");
+    // scanf("%f %f %f", &X, &A, &Y);
+    // cost_one_kg = A / X;
+    // printf("1 kg will cost %.0f rub\n%.0f kg will cost %.0f rub", cost_one_kg, Y, Y * cost_one_kg);
+
+    // begin 34
+    // float X = 0, A = 0, Y = 0, B = 0, cost_one_kg_chocolates = 0, cost_one_kg_toffees = 0;
+    // printf("Enter variables of chocolates X kg, A rub and toffees Y kg, B rub ");
+    // scanf("%f %f %f %f", &X, &A, &Y, &B);
+    // cost_one_kg_chocolates = A / X;
+    // cost_one_kg_toffees = B / Y;
+    // printf("1 kg of chocolates will cost %.0f rub\n1 kg of toffees will cost %.0f rub\nChocolates are more expensive than toffees %.0f", cost_one_kg_chocolates, cost_one_kg_toffees, cost_one_kg_chocolates / cost_one_kg_toffees); 
+
+    // begin 35
+    // float V = 0, U = 0, T1 = 0, T2 = 0;
+    // printf("Enter variables V km/h, U km/h and T1 h, T2 h ");
+    // scanf("%f %f %f %f", &V, &U, &T1, &T2);
+    // printf("S boats = %.0f", T1 * V + (V - U) * T2);
+
+    // begin 36
+    // float V1 = 0, V2 = 0, S = 0, T = 0;
+    // printf("Enter variables V1 km/h, V2 km/h, S km and T h ");
+    // scanf("%f %f %f %f", &V1, &V2, &S, &T);
+    // printf("S = %.0f", S + V1 * T + V2 * T);
+
+    // begin 37
+    // float V1 = 0, V2 = 0, S = 0, T = 0;
+    // printf("Enter variables V1 km/h, V2 km/h, S km and T h ");
+    // scanf("%f %f %f %f", &V1, &V2, &S, &T);
+    // printf("S = %.0f", fabs(S - (V1 * T + V2 * T)));
+
+    // begin 38
+    // float A = 0, B = 0;
+    // printf("Enter variables A and B, when A != 0 ");
+    // scanf("%f %f", &A, &B);
+    // printf("x = %.0f", -1 * B / A);
+
+    // begin 39
+    // float A = 0, B = 0, C = 0, D = 0, x1 = 0, x2 = 0;
+    // printf("Enter variables A, B and C, when A != 0 ");
+    // scanf("%f %f %f", &A, &B, &C);
+    // D = pow(B,2) - 4 * A * C;
+    // x1 = ((-1)*B + sqrt(D)) / (2 * A);
+    // x2 = ((-1)*B - sqrt(D)) / (2 * A);
+    // if (x1 > x2) {
+    //     printf("x2 = %.0f\nx1 = %.0f", x2, x1);
+    // }
+    // else {
+    //     printf("x1 = %.0f\nx2 = %.0f", x1, x2);
+    // }
+
+    // begin 40
+    // float A1 = 0, B1 = 0, C1 = 0, A2 = 0, B2 = 0, C2 = 0, D = 0;
+    // printf("Enter variables A1, B1, C1, A2, B2, C2 ");
+    // scanf("%f %f %f %f %f %f", &A1, &B1, &C1, &A2, &B2, &C2);
+    // D = A1 * B2 - A2 * B1;
+    // printf("x = %.0f\ny = %.0f", (C1 * B2 - C2 * B1) / D, (A1 * C2 - A2 * C1) / D);
 }
 
 
