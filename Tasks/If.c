@@ -474,7 +474,7 @@ void main()
     // (a == 0) ? printf("Zero number %i", a) : (a > 0) ? printf("Positive ") : printf("Nigative "); // 2 solution
     // (a != 0 && a % 2 == 0) ? printf("even number %i", a) : (a != 0 && a % 2 != 0) ? printf("odd number %i", a) : 0;
 
-
+    // if 30
     // int a = 0;
     // printf("Enter variable a (range 1 - 999) ");
     // scanf("%i", &a);
